@@ -10,6 +10,7 @@ router.get('/', (req, res) => {
   Product.findAll().then((productData)=>{
     res.json(productData);
   });
+ 
   
 });
 
